@@ -15,7 +15,7 @@ const Cuisines = async() => {
     const posts = await getData();
     //console.log(posts);
   return (
-    <div>
+    <div className='text-black-500 text-lg flex-col font-bold'>
         <Link href="/">Admin Panel</Link>
         <div className='my-5 flex flex-col gap-4'>
             <h1 className='text-3xl  text-blue-500 font-bold'>Cuisines List App</h1>
